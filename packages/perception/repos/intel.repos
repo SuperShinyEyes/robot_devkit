@@ -3,18 +3,6 @@ repositories:
     type: git
     url: https://github.com/SuperShinyEyes/ros2_intel_realsense.git
     version: 7238ceaff0fed56057702573fba2fa95d20682a4
-  intel/ros2_object_analytics:
-    type: git
-    url: https://github.com/intel/ros2_object_analytics.git
-    version: 0.5.5
-  intel/ros2_openvino_toolkit:
-    type: git
-    url: https://github.com/intel/ros2_openvino_toolkit.git
-    version: 201910.3
-  intel/ros2_grasp_library:
-    type: git
-    url: https://github.com/intel/ros2_grasp_library.git
-    version: 0.5.0
   intel/ros2_ur_description:
     type: git
     url: https://github.com/RoboticsYY/ros2_ur_description.git
