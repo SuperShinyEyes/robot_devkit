@@ -1,8 +1,8 @@
 repositories:
   intel/ros2_intel_realsense:
     type: git
-    url: https://github.com/intel/ros2_intel_realsense.git
-    version: 2.0.6
+    url: https://github.com/SuperShinyEyes/ros2_intel_realsense.git
+    version: 7238ceaff0fed56057702573fba2fa95d20682a4
   intel/ros2_object_analytics:
     type: git
     url: https://github.com/intel/ros2_object_analytics.git

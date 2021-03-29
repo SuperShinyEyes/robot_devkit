@@ -27,7 +27,7 @@ install_turtlebot3_ros2_packages()
 
   # Install Gazebo9
   if [[ "$http_proxy" == "" ]];then
-    curl -sSL http://get.gazebosim.org | sh
+    curl -sSL https://gist.githubusercontent.com/SuperShinyEyes/4dda343bf78ec2c0bc50a9a2d1b5414b/raw/a62c9df2c20ecd14b6545e3a6ab5f2546f215d24/gazebo.sh | sh
   else
     curl -sSL http://get.gazebosim.org|sed 's/apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D2486D2DD83DB69272AFE98867170598AF24974/apt-key adv --keyserver keyserver.ubuntu.com --keyserver-options http-proxy=$http_proxy --recv-keys D2486D2DD83DB69272AFE98867170598AF24974/g'|sh
   fi
